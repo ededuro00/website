@@ -1,4 +1,4 @@
-int<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -71,14 +71,6 @@ int<!DOCTYPE html>
         .profile-info h1 {
             font-size: 2.5rem;
             margin-bottom: 0.5rem;
-        }
-
-        .profile-traditional {
-            text-align: center;
-        }
-
-        .profile-traditional .profile-image {
-            margin-bottom: 1.5rem;
         }
 
         nav {
@@ -180,7 +172,6 @@ int<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <!-- Option 1: Side-by-side layout -->
     <header>
         <div class="container">
             <div class="profile-container">
@@ -195,21 +186,6 @@ int<!DOCTYPE html>
             </div>
         </div>
     </header>
-
-    <!-- Option 2: Traditional centered layout -->
-    <!-- Uncomment this and comment out Option 1 if you prefer this style
-    <header>
-        <div class="container">
-            <div class="profile-traditional">
-                <img src="IMG-20230804-WA000.jpg" alt="Edoardo Sebastiano De Duro" class="profile-image">
-                <h1>Edoardo Sebastiano De Duro</h1>
-                <p>PhD Candidate</p>
-                <p>Department of Psychology and Cognitive Science</p>
-                <p>University of Trento, Italy</p>
-            </div>
-        </div>
-    </header>
-    -->
 
     <nav>
         <div class="container">
@@ -226,7 +202,7 @@ int<!DOCTYPE html>
             <p>
                 I'm a PhD candidate in Cognitive Science at the University of Trento. The topic of my PhD will cover AI and mental health.
                 My interests are Mental Health, Natural Language Processing and AI. I truly believe that approaching AI from a cognitive perspective might not only improve AI applications but also result in a tool to better understand the human mind.</p>
-                <p>I work at <a href="https://cognosco.dipsco.unitn.it// target="_blank"">CogNosco Lab</a> (PI Massimo Stella) where we do lots of interesting things!
+                <p>I work at <a href="https://cognosco.dipsco.unitn.it/" target="_blank">CogNosco Lab</a> (PI Massimo Stella) where we do lots of interesting things!
             </p>
         </section>
 
@@ -236,48 +212,59 @@ int<!DOCTYPE html>
                 <li>Large Language Models 🧠💬</li>
                 <li>Machine Psychology 🤖🧠</li>
                 <li>Mental Health 🧠🌱</li>
-                
             </ul>
+        </section>
 
         <section id="publications">
             <h2>Publications</h2>
+
             <div class="publication">
-                <h4><a href="https://mededu.jmir.org/2025/1/e68056" target="_blank">Cognitive networks identifyt AI biases on societal issues in LArge Language Models</a></h4>
-                    
+                <h4><a href="https://arxiv.org/pdf/2604.27673" target="_blank">The TEA Nets framework combines AI and cognitive network science to model targets, events and actors in text</a></h4>
+                <p>S. Franchini, A. Carrillo, E. S. De Duro, R. Improta, A. Aghazadeh Ardebili, M. Stella</p>
+            </div>
+
+            <div class="publication">
+                <h4><a href="https://osf.io/download/7zhvr/" target="_blank">Digital shadows in mental health map how LLMs simulate depression, anxiety, and stress through language and psychometrics</a></h4>
+                <p>E. Franchino, R. Rizzi, E. S. De Duro, M. Stella</p>
+            </div>
+
+            <div class="publication">
+                <h4><a href="https://mededu.jmir.org/2025/1/e68056" target="_blank">Cognitive networks identify AI biases on societal issues in Large Language Models</a></h4>
                 <p>E. S. De Duro, E. Franchino, R. Improta, G. A. Veltri, M. Stella</p>
-                </div>    
-            
+            </div>
+
             <div class="publication">
-                <h4><a href="http://siba-ese.unisalento.it/index.php/ithaca/article/view/28646" target="_blank"> Network science highlights the emotional structure of counselling
-                conversations simulated by Large Language Models and humans</a></h4>
-                <p>E. S. De Duro, R. Improta, M. Stella - Proceedings of the 28th Workshop on the Semantics and Pragmatics of Dialogue, September, 11–12, 2024,
-                Trento, Italy.</p>
-                </div>
-                 <div class="publication">
+                <h4><a href="http://siba-ese.unisalento.it/index.php/ithaca/article/view/28646" target="_blank">Network science highlights the emotional structure of counselling conversations simulated by Large Language Models and humans</a></h4>
+                <p>E. S. De Duro, R. Improta, M. Stella - Proceedings of the 28th Workshop on the Semantics and Pragmatics of Dialogue, September, 11–12, 2024, Trento, Italy.</p>
+            </div>
+
+            <div class="publication">
                 <h4><a href="https://arxiv.org/abs/2502.21028" target="_blank">Measuring and identifying factors of individuals' trust in Large Language Models</a></h4>
                 <p>E. S. De Duro, G. Veltri, H. Golino, M. Stella</p>
-                </div>
-            
-                <div class="publication">
-                <h4><a href="https://mededu.jmir.org/2025/1/e68056" target="_blank">Client101: Leveraging Large Language Models for Simulated Psychotherapy Client Interactions</a></h4>
-                    
-                <p>D. C. Lozoya, M. Conway, E. S. De Duro, S. D'Alfonso - JMIR Med Educ 2025;11:e68056</p>
-                </div>
+            </div>
+
             <div class="publication">
-                <h4><a href="https://www.sciencedirect.com/science/article/pii/S2667118225000017" target="_blank"> Introducing CounseLLMe: A dataset of simulated mental health dialogues for comparing LLMs like Haiku, LLaMAntino and ChatGPT against humans</a></h4>
+                <h4><a href="https://mededu.jmir.org/2025/1/e68056" target="_blank">Client101: Leveraging Large Language Models for Simulated Psychotherapy Client Interactions</a></h4>
+                <p>D. C. Lozoya, M. Conway, E. S. De Duro, S. D'Alfonso - JMIR Med Educ 2025;11:e68056</p>
+            </div>
+
+            <div class="publication">
+                <h4><a href="https://www.sciencedirect.com/science/article/pii/S2667118225000017" target="_blank">Introducing CounseLLMe: A dataset of simulated mental health dialogues for comparing LLMs like Haiku, LLaMAntino and ChatGPT against humans</a></h4>
                 <p>E. S. De Duro, R. Improta, M. Stella - Emerging Trends in Drugs, Addictions, and Health, 100170</p>
             </div>
+
             <div class="publication">
-                <h4><a href="https://arxiv.org/abs/2411.10473" target="_blank"> PhDGPT: Introducing a psychometric and linguistic dataset about how large language models perceive graduate students and professors in psychology</a></h4>
+                <h4><a href="https://arxiv.org/abs/2411.10473" target="_blank">PhDGPT: Introducing a psychometric and linguistic dataset about how large language models perceive graduate students and professors in psychology</a></h4>
                 <p>E. S. De Duro, E. Taietta, R. Improta, M. Stella</p>
             </div>
+
             <div class="publication">
-                <h4><a href="https://doi.org/10.3758/s13428-024-02553-7" target="_blank"> EmoAtlas: An emotional network analyser of texts merging psychological lexicons, artificial intelligence and network science</a></h4>
+                <h4><a href="https://doi.org/10.3758/s13428-024-02553-7" target="_blank">EmoAtlas: An emotional network analyser of texts merging psychological lexicons, artificial intelligence and network science</a></h4>
                 <p>A. Semeraro, S. Vilella, R. Improta, E. S. De Duro, S. M. Mohammad, G. Ruffo, M. Stella - Behavior Research Methods 57, 77 (2025)</p>
             </div>
-            </div>
+
             <div class="publication">
-                <h4><a href="https://www.semdial.org/anthology/Z24-DeDuro_semdial_0034.pdf" target="_blank"> Sfidare l'ansia da matematica con l'aiuto delle scienze cognitive</a></h4>
+                <h4><a href="https://www.semdial.org/anthology/Z24-DeDuro_semdial_0034.pdf" target="_blank">Sfidare l'ansia da matematica con l'aiuto delle scienze cognitive</a></h4>
                 <p>L. Ciringione, E. S. De Duro, M. Stella - Ithaca: Viaggio nella Scienza 2024 (23), 63-72</p>
             </div>
         </section>
@@ -299,13 +286,13 @@ int<!DOCTYPE html>
                 </div>
                 <div class="contact-item">
                     <i class="fab fa-linkedin"></i>
-                    <p><a href="https://www.linkedin.com/in/edoardo-de-duro-577180270/" target="_blank">LinkedIn</p>
+                    <p><a href="https://www.linkedin.com/in/edoardo-de-duro-577180270/" target="_blank">LinkedIn</a></p>
                 </div>
             </div>
         </section>
     </main>
 
-   <footer>
+    <footer>
         <div class="container">
             <p></p>
         </div>
